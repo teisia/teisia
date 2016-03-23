@@ -1,9 +1,17 @@
 extends layout
 
 block content
-  div.contactMain
-    div.resume
-      h3
-        a(href='../files/teisia-resume.pdf')
+  div.col-sm-3
+  div.contactMain.col-sm-6
+    h1
+      ul
+        li: a(target='_blank' href='mailto:teisia@gmail.com')
+          i.icon-envelope
+        li: a.linkedin(target='_blank' href='https://www.linkedin.com/in/teisia')
+          i.icon-linkedin 
+        li: a(target='_blank' href='https://github.com/teisia')
+          i.icon-github
+        li: a(target='_blank' title='download resume pdf' href='../files/teisia-resume.pdf')
           i.icon-file
           |  resume
+  div.col-sm-3

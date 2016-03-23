@@ -4,46 +4,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.homeMain {
-  margin: 20rem auto;
-}
-
-.name {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 7rem;
-  color: #8ACACC;
-  margin-left: -40px;
-}
-
-.name li {
-  display: inline-block;
-}
-
-.p {
-  font-weight: bolder;
-  color: #EDE1C1;
-}
-
-.a2 {
-  font-weight: bolder;
-  color: #EDE1C1;
-}
-
-.r {
-  font-weight: bolder;
-  color: #EDE1C1;
-}
-
-.k {
-  font-weight: bolder;
-  color: #EDE1C1;
-}
-
-.homeMain h4 {
-  color: #1D605B;
-}
-
-/*styling open close button*/
+/*nav*/
 .button {
 	display:inline;
 	position:absolute;
@@ -102,7 +63,7 @@
 .wrap ul.wrap-nav li {
   margin: 0 auto;
   display: inline-block;
-	font-size: 4rem;
+	font-size: 3.5rem;
   font-weight: bold;
 	vertical-align:top;
 	width:24%;
@@ -144,29 +105,58 @@
 	.wrap ul.wrap-nav {
 		padding:30px 0px 0px;
 	}
-	nav ul {
-		opacity:0;
-		visibility:hidden;
-	}
+  .contactMain ul>li {
+    width:100%;
+    padding:20px 0;
+    display: list-item;
+    margin-left: -20px;
+  }
 }
 
-.contactMain {
-  text-align: center;
+/*homepage*/
+.homeMain {
   margin: 20rem auto;
 }
 
-.resume a {
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 7rem;
   color: #8ACACC;
+  margin-left: -40px;
 }
 
-.resume a:hover {
-  color: #DF001D;
-  text-decoration: none;
+.name li {
+  display: inline-block;
+}
+
+.p {
+  font-weight: bolder;
+  color: #EDE1C1;
+}
+
+.a2 {
+  font-weight: bolder;
+  color: #EDE1C1;
+}
+
+.r {
+  font-weight: bolder;
+  color: #EDE1C1;
+}
+
+.k {
+  font-weight: bolder;
+  color: #EDE1C1;
+}
+
+.homeMain h4 {
+  color: #1D605B;
 }
 
 .mainAbout {
   margin-top: 15rem;
   color: #1D605B;
+  padding-bottom: 10rem;
 }
 
 .mainAbout h1 {
@@ -186,4 +176,122 @@
 img.peaceEmoji {
   height: 25px;
   width: auto;
+}
+
+/*contact page*/
+.contactMain {
+  text-align: center;
+  margin: 20rem auto;
+}
+
+.contactMain h1 {
+  color: #8ACACC;
+  font-weight: bolder;
+}
+
+.contactMain li {
+  list-style: none;
+  display: inline;
+  margin: 2rem;
+}
+
+.contactMain a {
+  color: #8ACACC;
+  text-decoration: none;
+}
+
+.contactMain a:hover {
+  color: #DF001D;
+  text-decoration: none;
+}
+
+/*projects page*/
+.projectsMain {
+  margin: 5rem auto;
+}
+
+.projectsMain h1 {
+  color: #8ACACC;
+  font-weight: bolder;
+  margin-left: -20px;
+}
+
+.projectsMain img {
+  height: 250px;
+  width: auto;
+  border: 5px solid #8ACACC;
+  margin-top: 50px;
+}
+
+/*project animation*/
+.image-wrapper {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.image-overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.overlay-fade-in p {
+  color: #1D605B;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.overlay-fade-in h2 {
+  color: #1D605B;
+  font-weight: bold;
+}
+
+.overlay-fade-in i {
+  color: #8ACACC;
+  padding: 10px;
+}
+
+.overlay-fade-in i:hover {
+  color: #DF001D;
+}
+
+.overlay-fade-in a:hover {
+  text-decoration: none;
+}
+
+.overlay-fade-in img {
+  transition: all 0.2s linear;
+}
+
+.overlay-fade-in .image-overlay-content {
+  opacity: 0;
+  background-color: #EDE1C1;
+  transition: all 0.4s ease-in-out;
+}
+
+.overlay-fade-in:hover img {
+  transform: scale(1.2);
+}
+
+.overlay-fade-in:hover .image-overlay-content {
+  opacity: 1;
+}
+
+.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button {
+  opacity: 1;
+}
+
+.overlay-fade-in:hover p {
+  transition-delay: 0.1s;
+}
+
+.overlay-fade-in:hover .button {
+  transition-delay: 0.2s;
 }
