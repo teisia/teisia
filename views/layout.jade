@@ -1,7 +1,36 @@
 doctype html
-html
+html(ng-app='Portfolio')
   head
     title teisia park
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/animate.css')
+    link(href='/stylesheets/font-awesome/font-awesome.css')
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,400italic&subset=latin,greek', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css' integrity='sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r' crossorigin='anonymous')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    script(src='/javascripts/index.js')
   body
-    block content
+    .button
+      a.btn-open(href='#')
+    .overlay
+      .wrap
+        ul.wrap-nav
+          li
+            a(href='/') 
+              i.icon-home
+              |  home
+          li
+            a(href='/about') 
+              i.icon-file-alt
+              |  about
+          li
+            a(href='/projects') 
+              i.icon-copy
+              |  projects
+          li
+            a(href='/contact')
+              i.icon-envelope
+              |  contact
+     block content
