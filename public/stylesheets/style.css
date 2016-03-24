@@ -367,5 +367,6 @@ img.peaceEmoji {
 
   .mobileLink a {
     color: #ff0000;
+    text-align: center;
   }
 }
