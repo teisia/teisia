@@ -366,8 +366,7 @@ img.peaceEmoji {
   }
 
   .image-wrapper {
-    width: 90%;
-    margin-left: 2rem;
+    width: 400px;
   }
 
   .mobileLink {
@@ -376,6 +375,6 @@ img.peaceEmoji {
 
   .mobileLink a {
     color: #8ACACC;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
