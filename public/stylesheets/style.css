@@ -119,9 +119,11 @@
 }
 
 #easteregg {
-  background-color: white;
-  border: none;
-  padding: 0;
+  color: #1D605B;
+}
+
+#easteregg:after {
+  color: #1D605B;
 }
 
 .homeMain h4 {
