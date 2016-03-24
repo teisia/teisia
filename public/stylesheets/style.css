@@ -365,8 +365,17 @@ img.peaceEmoji {
     font-size: 10rem;
   }
 
-  .mobileLink a {
-    color: #ff0000;
+  .image-wrapper {
+    width: 90%;
+    margin-left: 2rem;
+  }
+
+  .mobileLink {
     text-align: center;
+  }
+
+  .mobileLink a {
+    color: #8ACACC;
+    font-size: 5rem;
   }
 }
