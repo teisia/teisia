@@ -134,18 +134,24 @@
     margin-left: -20px;
   }
   .overlay-fade-in h2 {
-    font-size: 2rem;
+    font-size: 10rem;
   }
   .homeMain h4 {
     font-size: 6rem;
   }
-  .name {
+  .name li {
     font-family: 'Open Sans', sans-serif;
     font-size: 15rem;
     margin-left: -40px;
   }
-  .mainAbout {
+  .mainAbout h1 {
+    font-size: 10rem;
+  }
+  .mainAbout h3 {
     font-size: 6rem;
+  }
+  .contactMain li {
+    font-size: 10rem;
   }
 }
 
