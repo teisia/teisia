@@ -113,24 +113,15 @@
   display: inline-block;
 }
 
-.p {
+.last {
   font-weight: bolder;
   color: #EDE1C1;
 }
 
-.a2 {
-  font-weight: bolder;
-  color: #EDE1C1;
-}
-
-.r {
-  font-weight: bolder;
-  color: #EDE1C1;
-}
-
-.k {
-  font-weight: bolder;
-  color: #EDE1C1;
+#easteregg {
+  background-color: white;
+  border: none;
+  padding: 0;
 }
 
 .homeMain h4 {
