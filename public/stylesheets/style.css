@@ -116,6 +116,39 @@
   }
 }
 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .wrap ul.wrap-nav>li {
+		width:100%;
+		padding:20px 0;
+	}
+	.wrap ul.wrap-nav {
+		padding:30px 0px 0px;
+	}
+  .contactMain ul>li {
+    width:100%;
+    padding:20px 0;
+    display: list-item;
+    margin-left: -20px;
+  }
+  .overlay-fade-in h2 {
+    font-size: 2rem;
+  }
+  .homeMain h4 {
+    font-size: 6rem;
+  }
+  .name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15rem;
+    margin-left: -40px;
+  }
+  .mainAbout {
+    font-size: 6rem;
+  }
+}
+
 /*homepage*/
 .homeMain {
   margin: 20rem auto;
