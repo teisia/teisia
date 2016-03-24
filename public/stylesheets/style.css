@@ -138,9 +138,10 @@
 }
 
 .mainAbout {
-  margin-top: 15rem;
+  margin: 15rem auto;
   color: #1D605B;
   padding-bottom: 10rem;
+  width: 75vw;
 }
 
 .mainAbout h1 {
@@ -367,7 +368,7 @@ img.peaceEmoji {
 
   .image-wrapper {
     width: 80vw;
-    margin-left: -20vw;
+    margin-left: -22vw;
 
   }
 
@@ -377,6 +378,28 @@ img.peaceEmoji {
 
   .mobileLink a {
     color: #8ACACC;
-    font-size: 3rem;
+    font-size: 4rem;
   }
+
+  .projectsMain h1 {
+    font-size: 6rem;
+  }
+
+  .mainAbout h1 {
+    font-size: 6rem;
+  }
+
+  .mainAbout h3 {
+    font-size: 4rem;
+  }
+
+  .mainAbout {
+    width: 80vw;
+  }
+
+  img.peaceEmoji {
+    height: 45px;
+    width: auto;
+  }
+
 }
