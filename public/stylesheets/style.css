@@ -133,16 +133,22 @@
     display: list-item;
     margin-left: -20px;
   }
-  .overlay-fade-in h2 {
+  .overlay-fade-in li {
     font-size: 10rem;
   }
   .homeMain h4 {
     font-size: 6rem;
   }
-  .name li {
+  .name {
+    width: 100%;
+  }
+  .name ul {
     font-family: 'Open Sans', sans-serif;
     font-size: 15rem;
     margin-left: -40px;
+  }
+  .mainAbout {
+    width: 100%;
   }
   .mainAbout h1 {
     font-size: 10rem;
